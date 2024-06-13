@@ -51,8 +51,8 @@ To determine if these differences are statistically significant, we conducted a 
 
 At a 99% confidence level, the difference in mean sales between the First and Second promotions is statistically significant (P < 0.01). This means that the First promotion generates significantly higher mean sales than the Second promotion. This suggests that the First promotion is more effective in generating higher revenue per sale compared to the Second promotion. Let’s jump to the second comparison.
 
+![Comparison 2](https://github.com/augustinas-banikonis/A-B-test/blob/main/1%20vs%203.PNG))
 #### Picture 2. Comparing First and Third promotions
-![Comparison 2](path/to/comparison2.png)
 
 **Key results:**
 - **The difference in Means (D)**: The mean sales for the First promotion was 232.396, while for the Third promotion, it was 221.457, resulting in a difference in means (D) of 11.
