@@ -40,9 +40,9 @@ The First promotion showed the highest mean sales (232.396), followed by the Thi
 
 To determine if these differences are statistically significant, we conducted a two-sample t-test for each pair of promotions using the Evans Miller A/B test calculator. Here we will be comparing confidence intervals and estimated differences between two groups (in our case we will be comparing promotions - first to second, second to third, and first to third). The calculator asks to insert the mean (Average Sales), standard deviation, and sales count. We can see these kinds of results:
 
-#### Picture 1. Comparing first and second promotions
 
-![Comparison 1]([path/to/comparison1.png](https://github.com/augustinas-banikonis/A-B-test/blob/main/1%20vs%202.PNG))
+![Comparison 1](https://github.com/augustinas-banikonis/A-B-test/blob/main/1%20vs%202.PNG)
+#### Picture 1. Comparing first and second promotions
 
 **Key results:**
 - **The difference in Means (D)**: The mean sales for the First promotion was 232.396, while for the Second promotion, it was 189.317, resulting in a difference in means (D) of 43.079.
@@ -52,7 +52,6 @@ To determine if these differences are statistically significant, we conducted a 
 At a 99% confidence level, the difference in mean sales between the First and Second promotions is statistically significant (P < 0.01). This means that the First promotion generates significantly higher mean sales than the Second promotion. This suggests that the First promotion is more effective in generating higher revenue per sale compared to the Second promotion. Let’s jump to the second comparison.
 
 #### Picture 2. Comparing First and Third promotions
-
 ![Comparison 2](path/to/comparison2.png)
 
 **Key results:**
