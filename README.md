@@ -28,15 +28,13 @@ You can find the query for the table in the appendix.
 
 ### Table 1. Summary of the results of the Fast Food Marketing Campaign A/B Test
 
-| Promotion | Sales Count | Mean Sales |
-|-----------|-------------|------------|
-| First     | 232.396     | 232.396    |
-| Second    | 189.317     | 189.317    |
-| Third     | 221.457     | 221.457    |
+| Promotion | Sales Count | Mean Sales | Std Dev Sales |
+|-----------|-------------|------------|---------------|
+| 1         | 43          | 232.396    | 64.113        |
+| 2         | 47          | 189.318    | 57.988        |
+| 3         | 47          | 221.458    | 65.535        |
 
 The First promotion showed the highest mean sales (232.396), followed by the Third promotion (221.457), and the Second promotion (189.317). The sales count is slightly imbalanced, but the proportions are reasonable for comparison.
-
-### Table 2. Proportion of sales count
 
 To determine if these differences are statistically significant, we conducted a two-sample t-test for each pair of promotions using the Evans Miller A/B test calculator. Here we will be comparing confidence intervals and estimated differences between two groups (in our case we will be comparing promotions - first to second, second to third, and first to third). The calculator asks to insert the mean (Average Sales), standard deviation, and sales count. We can see these kinds of results:
 
@@ -61,9 +59,8 @@ At a 99% confidence level, the difference in mean sales between the First and Se
 
 At a 99% confidence level, the difference in mean sales between the First promotion and the Third promotion is not statistically significant (P > 0.01). This indicates that there is no significant difference in the mean sales values between the two promotion plans. This suggests that the First promotion and the Third promotion perform similarly in terms of generating revenue per sale. Let’s check the last comparison between the second and third promotion plans.
 
+![Comparison 3](https://github.com/augustinas-banikonis/A-B-test/blob/main/2%20vs%203.PNG))
 #### Picture 3. Comparing second and third promotions
-
-![Comparison 3](path/to/comparison3.png)
 
 **Key results:**
 - **The difference in Means (D)**: The mean sales for the Third promotion was 221.457, while for the Second promotion, it was 189.317, resulting in a difference in means (D) of -31.683.
