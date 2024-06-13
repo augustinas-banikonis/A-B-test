@@ -42,7 +42,7 @@ To determine if these differences are statistically significant, we conducted a 
 
 #### Picture 1. Comparing first and second promotions
 
-![Comparison 1](path/to/comparison1.png)
+![Comparison 1]([path/to/comparison1.png](https://github.com/augustinas-banikonis/A-B-test/blob/main/1%20vs%202.PNG))
 
 **Key results:**
 - **The difference in Means (D)**: The mean sales for the First promotion was 232.396, while for the Second promotion, it was 189.317, resulting in a difference in means (D) of 43.079.
